@@ -7,7 +7,7 @@ paths_local="${paths_base}/code"  # Adjust if needed
 paths_freesurfer="/Applications/freesurfer/7.4.1/subjects"
 
 # Load subject list from a file
-paths_sublist="${paths_base}/subjects/mt_subjects.txt"
+paths_sublist="${paths_base}/subjects/NS_subjects.txt"
 
 # Check if the subject list file exists
 if [ ! -f "$paths_sublist" ]; then
